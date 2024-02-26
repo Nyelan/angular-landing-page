@@ -2,5 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #1b0130;
+    background-color: #1B0130;
+    color: white;
+    font-family: "Minha Fonte";
 }
+@font-face {
+    font-family: 'Minha Fonte';
+    src: url('assets/fonts/Roboto-Regular.ttf') format('truetype');
+  }
+  
