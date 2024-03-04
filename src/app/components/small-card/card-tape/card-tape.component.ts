@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card-tape',
@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './card-tape.component.css'
 })
 export class CardTapeComponent {
-
+  @Input()
+  title:string = '';
+  @Input()
+  desc:string = '';
+  @Input()
+  img:string = '';
 }

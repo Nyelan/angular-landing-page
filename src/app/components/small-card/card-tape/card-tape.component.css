@@ -1,7 +1,8 @@
 .card-tape-box{
     width: 30rem;
-    
+    margin: 3rem 0;
 }
 img{
-    width: 30rem;
+    width: 29.4rem;
+    border-radius: 10px;
 }

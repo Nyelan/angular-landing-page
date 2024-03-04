@@ -1,0 +1,12 @@
+.small-card{
+    width: 30rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+app-card-tape{
+    width: 30rem;
+    margin: 3rem 0;
+}
