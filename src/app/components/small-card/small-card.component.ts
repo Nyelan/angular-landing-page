@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Inject, Injectable, Input } from '@angular/core';
 import { CardTapeComponent } from './card-tape/card-tape.component';
 
 @Component({
@@ -8,6 +8,14 @@ import { CardTapeComponent } from './card-tape/card-tape.component';
   templateUrl: './small-card.component.html',
   styleUrl: './small-card.component.css'
 })
+
+@Injectable()
 export class SmallCardComponent {
+  @Input()
+  title = '';
+  @Input()
+  desc:string = '';
+  @Input()
+  img:string = '';
 
 }
